@@ -1,0 +1,61 @@
+/* BREME Digital : jetons de l'allure (page de vente « Boutique qui vend »)
+   Parti pris : un commerçant parle à un commerçant ; clair comme une vitrine
+   bien rangée, franc comme un prix affiché, lisible en plein soleil.
+   Contrastes mesurés : encre/papier 17.3:1, encre/or 8.2:1, or/encre 8.2:1,
+   or-fonce/papier 5.4:1, gris/papier 7.0:1, gris/sable 6.2:1.
+   Interdit : texte or sur fond clair (2.1:1). */
+:root {
+  /* Couleurs (tirées du logo) */
+  --encre: #16130E;          /* noir chaud : texte, blocs sombres */
+  --encre-2: #221D16;        /* noir un cran plus clair : cartes sur fond sombre */
+  --papier: #FAF7F1;         /* fond principal, blanc chaud */
+  --sable: #F0E9DC;          /* fond teinté, sections alternées */
+  --or: #E3A01B;             /* accent : bouton d'action UNIQUEMENT (et texte sur fond sombre) */
+  --or-survol: #F0B23A;
+  --or-fonce: #8C5C00;       /* petits libellés sur fond clair (5.4:1) */
+  --gris: #5C5448;           /* texte secondaire sur clair */
+  --gris-clair: #B9AF9F;     /* texte secondaire sur fond sombre */
+  --trait: #A89B84;          /* séparateurs */
+  --trait-sombre: #3A3227;   /* séparateurs sur fond sombre */
+
+  /* Polices */
+  --police-titre: "Archivo", "Arial Black", system-ui, sans-serif;
+  --police-texte: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --largeur-titre: 112%;     /* font-stretch d'Archivo : lettres larges comme le logo */
+
+  /* Tailles (téléphone d'abord) */
+  --t-xs: 0.875rem;
+  --t-s: 1rem;               /* texte courant minimum : 16 px */
+  --t-m: 1.125rem;
+  --t-l: 1.375rem;
+  --t-xl: 1.875rem;
+  --t-2xl: clamp(2.25rem, 8vw, 4rem);     /* titre du haut */
+  --t-prix: clamp(2rem, 6vw, 2.75rem);
+  --interligne: 1.55;
+  --interligne-titre: 1.05;
+
+  /* Espacements (progression) */
+  --e-1: 0.5rem;
+  --e-2: 0.75rem;
+  --e-3: 1rem;
+  --e-4: 1.5rem;
+  --e-5: 2rem;
+  --e-6: 3rem;
+  --e-7: 4.5rem;
+  --e-8: 6.5rem;
+  --gouttiere: 1.25rem;
+  --largeur-max: 72rem;
+  --largeur-texte: 38rem;
+
+  /* Formes : deux rayons contrastés, séparation au trait (pas d'ombre) */
+  --rayon-petit: 4px;        /* boutons, étiquettes */
+  --rayon-grand: 18px;       /* cartes, cadre du téléphone */
+  --trait-epaisseur: 1.5px;
+  --bouton-hauteur: 3.5rem;  /* au moins 44 px */
+
+  /* Mouvement (registre standard) */
+  --courbe-entree: cubic-bezier(0.23, 1, 0.32, 1);
+  --duree-arrivee: 600ms;
+  --duree-survol: 160ms;
+  --decalage: 80ms;
+}
