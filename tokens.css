@@ -8,8 +8,9 @@
   /* Couleurs (tirées du logo) */
   --encre: #16130E;          /* noir chaud : texte, blocs sombres */
   --encre-2: #221D16;        /* noir un cran plus clair : cartes sur fond sombre */
-  --papier: #FFFFFF;         /* fond principal, blanc pur (choix de Crépin) */
-  --sable: #FFFFFF;          /* sections alternées : blanc aussi, séparées par un trait */
+  --papier: #F7F4EE;         /* fond principal : blanc cassé chaud, doux pour les yeux */
+  --sable: #EDE6D8;          /* sections alternées : un cran plus chaud, pour le rythme */
+  --carte: #FFFFFF;          /* cartes et captures : blanc pur, elles ressortent sur le fond */
   --or: #E3A01B;             /* accent : bouton d'action UNIQUEMENT (et texte sur fond sombre) */
   --or-survol: #F0B23A;
   --or-fonce: #8C5C00;       /* petits libellés sur fond clair (5.4:1) */

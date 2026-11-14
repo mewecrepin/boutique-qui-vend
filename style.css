@@ -113,10 +113,7 @@ p { margin: 0; }
 
 /* Sections */
 .section { padding: var(--e-7) 0; }
-.section--trait { border-top: var(--trait-epaisseur) solid var(--trait); }
-/* tout est blanc : un trait sépare deux sections claires qui se suivent */
-.section + .section { border-top: 1px solid var(--trait); }
-@media (min-width: 900px) { .section { padding: var(--e-8) 0; } }
+.section--trait { border-top: var(--trait-epaisseur) solid var(--trait); }@media (min-width: 900px) { .section { padding: var(--e-8) 0; } }
 .entete-section { max-width: 44rem; margin-bottom: var(--e-6); }
 .titre-section { font-size: var(--t-xl); font-weight: 800; margin-bottom: var(--e-3); }
 .chapeau { font-size: var(--t-m); color: var(--gris); }
@@ -138,7 +135,7 @@ p { margin: 0; }
 .capture { scroll-snap-align: start; }
 .capture img {
   width: 100%; aspect-ratio: 375 / 640; object-fit: cover; object-position: top;
-  border-radius: var(--rayon-grand); border: var(--trait-epaisseur) solid var(--trait); background: var(--papier);
+  border-radius: var(--rayon-grand); border: var(--trait-epaisseur) solid var(--trait); background: var(--carte);
   margin-bottom: var(--e-3);
 }
 .capture p { color: var(--gris); }
@@ -162,7 +159,7 @@ p { margin: 0; }
 @media (min-width: 900px) { .offres { grid-template-columns: 1fr 1fr; gap: var(--e-5); align-items: stretch; } }
 .offre {
   display: flex; flex-direction: column;
-  background: var(--papier);
+  background: var(--carte);
   border: var(--trait-epaisseur) solid var(--trait);
   border-radius: var(--rayon-grand);
   padding: var(--e-5) var(--e-4);
