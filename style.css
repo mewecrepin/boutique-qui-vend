@@ -114,6 +114,8 @@ p { margin: 0; }
 /* Sections */
 .section { padding: var(--e-7) 0; }
 .section--trait { border-top: var(--trait-epaisseur) solid var(--trait); }
+/* tout est blanc : un trait sépare deux sections claires qui se suivent */
+.section + .section { border-top: 1px solid var(--trait); }
 @media (min-width: 900px) { .section { padding: var(--e-8) 0; } }
 .entete-section { max-width: 44rem; margin-bottom: var(--e-6); }
 .titre-section { font-size: var(--t-xl); font-weight: 800; margin-bottom: var(--e-3); }
