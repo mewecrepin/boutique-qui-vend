@@ -171,7 +171,7 @@ p { margin: 0; }
 .offre--complete .offre__duree, .offre--complete .offre__suite { color: var(--gris-clair); }
 .offre__prix { font-family: var(--police-titre); font-stretch: var(--largeur-titre); font-weight: 900; font-size: var(--t-prix); line-height: 1.1; margin-top: var(--e-4); }
 .offre__suite { color: var(--gris); margin-top: var(--e-1); }
-.offre__liste { list-style: none; margin: var(--e-4) 0 var(--e-5); padding: var(--e-4) 0 0; border-top: 1px solid var(--trait); display: grid; gap: var(--e-2); flex: 1; }
+.offre__liste { list-style: none; margin: var(--e-4) 0 var(--e-5); padding: var(--e-4) 0 0; border-top: 1px solid var(--trait); display: grid; gap: var(--e-2); align-content: start; flex: 1; }
 .offre--complete .offre__liste { border-top-color: var(--trait-sombre); }
 .offre__liste li { padding-left: 1.6rem; position: relative; }
 .offre__liste li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 0.8rem; height: 0.45rem; border-left: 2.5px solid currentColor; border-bottom: 2.5px solid currentColor; transform: rotate(-45deg); }
