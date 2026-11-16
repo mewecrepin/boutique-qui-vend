@@ -177,6 +177,14 @@ p { margin: 0; }
 .offre__liste li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 0.8rem; height: 0.45rem; border-left: 2.5px solid currentColor; border-bottom: 2.5px solid currentColor; transform: rotate(-45deg); }
 .offre:not(.offre--complete) .bouton--plein { background: var(--encre); color: var(--papier); }
 .offre:not(.offre--complete) .bouton--plein:hover { background: var(--encre-2); }
+/* Offres à la carte */
+.carte-offres { background: var(--carte); border: var(--trait-epaisseur) solid var(--trait); border-radius: var(--rayon-grand); padding: var(--e-4); margin-bottom: var(--e-5); }
+.carte-offres__titre { font-family: var(--police-titre); font-stretch: var(--largeur-titre); font-weight: 800; font-size: var(--t-m); margin-bottom: var(--e-3); }
+.carte-offres__liste { list-style: none; margin: 0; padding: 0; }
+.carte-offres__liste li { display: flex; justify-content: space-between; align-items: baseline; gap: var(--e-3); padding: var(--e-2) 0; border-top: 1px solid var(--trait); }
+.carte-offres__liste small { display: block; color: var(--gris); font-size: var(--t-xs); }
+.carte-offres__liste strong { white-space: nowrap; font-family: var(--police-titre); font-stretch: var(--largeur-titre); font-weight: 800; }
+.carte-offres__petit { margin-top: var(--e-2); color: var(--gris); font-size: var(--t-xs); }
 .note { color: var(--gris); max-width: 44rem; font-size: var(--t-s); }
 .note + .note { margin-top: var(--e-2); }
 .note strong { color: var(--encre); }
