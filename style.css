@@ -178,6 +178,8 @@ p { margin: 0; }
 .offre:not(.offre--complete) .bouton--plein { background: var(--encre); color: var(--papier); }
 .offre:not(.offre--complete) .bouton--plein:hover { background: var(--encre-2); }
 .note { color: var(--gris); max-width: 44rem; font-size: var(--t-s); }
+.note + .note { margin-top: var(--e-2); }
+.note strong { color: var(--encre); }
 
 /* 6. Pour qui */
 .pourqui { display: grid; gap: var(--e-6); }
